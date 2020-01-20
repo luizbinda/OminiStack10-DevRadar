@@ -1,0 +1,41 @@
+
+li.dev {
+    background: #fff;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 20px;
+}
+
+li.dev header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+
+}
+li.dev header img {
+    width: 54px;
+    height: 54;
+    border-radius: 50%;
+}
+
+li.dev header .user-info{
+    margin-left: 10px ;
+}
+
+
+li.dev p {
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+li.dev a {
+    color: #8e4dff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+li.dev a:hover{
+    color: #5a2ea6;
+}
